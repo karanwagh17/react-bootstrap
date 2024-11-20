@@ -1,0 +1,92 @@
+#root
+{
+  height: 100vh;
+  width: 100%;
+}
+body
+{
+  background-color: white;
+  width: 100%;
+}
+.container-fluid
+
+{
+  height: 70px;
+}
+.box {
+  height: 35px;
+  width: 200px;
+  border: 1px solid black;
+}
+.first {
+
+  justify-content: space-between;
+}
+.row {
+  --bs-gutter-x: 0; 
+--bs-gutter-y: 0;
+   display: flex
+; 
+ flex-wrap: wrap; 
+  margin-top: calc(-1* var(--bs-gutter-y)); 
+   margin-right: calc(-.5* var(--bs-gutter-x)); 
+  margin-left: calc(-.5* var(--bs-gutter-x));
+}
+.big-box
+{
+  height: 200px;
+  background-color: aqua;
+
+}
+.main-img
+{
+  height: 300px;
+  width: 97%;
+  /* background-color: blue */
+}
+.main-section
+{
+  background-color: #ffff;
+}
+.second-left
+{
+  padding-left: 20px;
+}
+.mein-sec-img .col-4
+{
+  height: 64px;
+  
+margin: 10px 0px;
+}
+.small-box {
+    height: 24px;
+    width: 27px;
+   
+    float: right;
+    margin: 0px 0px 10px 10px;
+}
+.content
+{
+  border :1px solid black; 
+  padding: 0px 5px;
+  margin-top: 10px;
+  background-color: azure;
+}
+.profile img{
+
+ 
+  height: 135px;
+  border-radius: 50%;
+}
+.profile.d-flex.mt-3 {
+  height: 148px;
+}
+
+.last {
+    height: 45px;
+    background: aqua;
+}
+.box {
+  background-color: #f2f2f2;
+  padding: 5px 0px 0px 51px;
+}
